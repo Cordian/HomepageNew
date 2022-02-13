@@ -38,7 +38,7 @@ education:
   - course: PhD in Mathematics
     institution: Goethe University Frankfurt
     year: 2011
-  - course: Dipl. Math. oec (Economical Mathematics)
+  - course: Dipl. Math. oec.
     institution: Ulm University
     year: 2006
   - course: Master Mathematics
