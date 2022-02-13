@@ -8,7 +8,7 @@ author: admin
 widget_id: Bio
 design:
   background:
-    image: polar.jpeg
-    text_color_light: true
+    image: ""
+    text_color_light: false
     image_darken: ""
 ---
