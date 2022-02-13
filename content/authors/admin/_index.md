@@ -20,9 +20,9 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Computational Complexity
+- Real algebraic Geometry
+- Symmetries in Computations
 
 # Education to show in About widget
 education:
@@ -47,10 +47,10 @@ social:
   link: '/#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/cordian1723
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=PxhL52MAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/gcushen
