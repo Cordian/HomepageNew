@@ -23,9 +23,9 @@ social:
     link: https://www.linkedin.com/
 organizations:
   - name: UiT The Artic University
-    url: https://www.stanford.edu/
+    url: https://uit.no/startsida
   - name: Lie-Størmer Center
-    url: https://www.stanford.edu/
+    url: https://uit.no/research/lsc
 education:
   courses:
   - course: Habilitation in Mathematics
