@@ -1,7 +1,6 @@
 ---
 role: Professor of Mathematics
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: My research interests include computational algebra, real algebraic geometry and computational complexity.
 interests:
   - Computational Complexity
   - Real algebraic Geometry
