@@ -20,22 +20,18 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: cordian.riener@uit.no
+phone: +47 77 64 40 90
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: Forskningsparken 
+  city: Tromsø
+  postcode: '9037'
+  country: Norway
+  country_code: NO
 coordinates:
   latitude: '37.4275'
   longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
+directions: Forskningsparken 1 4th floor B425
 appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
