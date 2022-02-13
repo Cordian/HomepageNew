@@ -10,5 +10,5 @@ design:
   background:
     image: polar.jpeg
     text_color_light: true
-    image_darken: 0.5
+    image_darken: ""
 ---
