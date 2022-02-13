@@ -9,6 +9,6 @@ widget_id: Bio
 design:
   background:
     image: polar.jpeg
-    text_color_light: true
+    text_color_light: false
     image_darken: 0.5
 ---
