@@ -8,6 +8,6 @@ author: admin
 widget_id: Bio
 design:
   background:
-    image: polar.jpeg
+    image: ""
     text_color_light: true
 ---
