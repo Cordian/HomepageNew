@@ -29,15 +29,21 @@ organizations:
     url: https://www.stanford.edu/
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Habilitation in Mathematics
+    institution: University of Konstanz
+    year: 2018
+  - course: Magister Artium (Philosophy)
+    institution: Goethe University Frankfurt
+    year: 2013
+  - course: PhD in Mathematics
+    institution: Goethe University Frankfurt
+    year: 2011
+  - course: Dipl. Math. oec (Economical Mathematics)
+    institution: Ulm University
+    year: 2006
+  - course: Master Mathematics
+    institution: Université de Bordeaux
+    year: 2005
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
