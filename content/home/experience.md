@@ -5,7 +5,7 @@ widget: experience
 
 # This file represents a page section.
 headless: true
-active: false
+active: true
 # Order that this section appears on the page.
 weight: 40
 
@@ -25,26 +25,45 @@ experience:
   - title: Professor
     company: UiT The Arctic University of Norway
     company_url: ''
-    company_logo: org-gc
+    company_logo: uit
     location: Tromsø, Norway
-    date_start: '2019-10-01'
+    date_start: '2018-04-01'
     date_end: ''
-    description: |2-
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
+   # description: |2-
+  #      Responsibilities include:
+   #ProDean at the Faculty of Science and Technology
+    #    Reserach group leader       
+  - title: Vertretungsprofessur 
+    company: University of Konstanz
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
-
+    company_logo: unik
+    location: Konstanz, Germany
+    date_start: '2016-10-01'
+    date_end: '2018-03-31'
+   # description: Stubstitution for the chair of geometry
+  - title: Aalto Science Fellow
+    company: Aalto University
+    company_url: ''
+    company_logo: aalto
+    location: Helsinki, Finland
+    date_start: '2012-10-01'
+    date_end: '2016-02-28'
+    #description: Research fellow in the Aalto Science Institute
+  - title: Postdoctoral fellow
+    company: University of Konstanz
+    company_url: ''
+    company_logo: unik
+    location: Konstanz, Germany
+    date_start: '2011-04-01'
+    date_end: '2012-09-30'
+  - title: Research Assistant
+    company: Goethe University
+    company_url: ''
+    company_logo: goethe
+    location: Frankfurt, Germany
+    date_start: '2007-01-01'
+    date_end: '2011-03-31'
+   # description: PhD student in the group of Thorsten Theobald
 design:
   columns: '2'
 ---
