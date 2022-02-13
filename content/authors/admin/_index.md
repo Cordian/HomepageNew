@@ -1,30 +1,32 @@
 ---
-# Display name
-title: Cordian Riener
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position/tagline
 role: Professor of Mathematics
-
-# Organizations/Affiliations to show in About widget
-organizations:
-- name: UiT The Artic University
-  url: https://www.stanford.edu/
-- name: Lie-Størmer Center
-  url: https://www.stanford.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-# Interests to show in About widget
+bio: My research interests include distributed robotics, mobile computing and
+  programmable matter.
 interests:
-- Computational Complexity
-- Real algebraic Geometry
-- Symmetries in Computations
-
-# Education to show in About widget
+  - Computational Complexity
+  - Real algebraic Geometry
+  - Symmetries in Computations
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: /#contact
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/cordian1723
+  - icon: graduation-cap
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=PxhL52MAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/gcushen
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/
+organizations:
+  - name: UiT The Artic University
+    url: https://www.stanford.edu/
+  - name: Lie-Størmer Center
+    url: https://www.stanford.edu/
 education:
   courses:
   - course: PhD in Artificial Intelligence
@@ -67,10 +69,11 @@ email: ""
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+title: Cordian Riener
+email: ""
 ---
+I am a professor of mathematics at UiT The Arctic University of Norway. I am currently also acting as Pro Dean for PhD education at the Faculty of Science and Technology. 
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My research interests include real algebraic geometry, optimization, computational complexity, and computer algebra. I am leading the  [Algebra group](https://uit.no/research/algebra) and I am also one of the initiators of the [Lie-Størmer Center](https://uit.no/research/lsc) for Fundamental Structures in Computational and Pure Mathematics. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
