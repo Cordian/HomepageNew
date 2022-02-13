@@ -26,8 +26,8 @@ experience:
     company: UiT The Arctic University of Norway
     company_url: ''
     company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    location: Tromsø, Norway
+    date_start: '2019-10-01'
     date_end: ''
     description: |2-
         Responsibilities include:
