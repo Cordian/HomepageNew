@@ -29,6 +29,8 @@ content:
     tag: '*'
   - name: SymmRAG
     tag: Deep Learning
+  - name: Lie-Størmer
+    tag: Demo
   - name: MasCot
     tag: Demo
 
