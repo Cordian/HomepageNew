@@ -3,7 +3,7 @@ publication_types:
   - "2"
 authors:
   - Saugata Basu
-  - Cordian Riener
+  - admin
 abstract: Let R be a real closed field. The problem of obtaining tight bounds on
   the Betti numbers of semi-algebraic subsets of in terms of the number and
   degrees of the defining polynomials has been an important problem in real
@@ -15,7 +15,7 @@ abstract: Let R be a real closed field. The problem of obtaining tight bounds on
   of symmetric algebraic and semi-algebraic subsets of . We obtain several
   asymptotically tight upper bounds. In particular, we prove that if is a
   semi-algebraic subset defined by a finite set of s symmetric polynomials of
-  degree at most d, then the sum of the -equivariant Betti numbers of S with
+  degree at most $d$, then the sum of the -equivariant Betti numbers of $S$ with
   coefficients in is bounded by . Unlike the classical bounds on the ordinary
   Betti numbers of real algebraic varieties and semi-algebraic sets, the above
   bound is polynomial in k when the degrees of the defining polynomials are
