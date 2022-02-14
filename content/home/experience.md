@@ -65,5 +65,5 @@ experience:
     date_end: '2011-03-31'
    # description: PhD student in the group of Thorsten Theobald
 design:
-  columns: '2'
+  columns: '3'
 ---
