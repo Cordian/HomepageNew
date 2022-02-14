@@ -25,11 +25,11 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-  - name: All
+  - name: POEMA
     tag: '*'
-  - name: Symmetry in quantitative and algorithmic real algebraic geometry
+  - name: SymmRAG
     tag: Deep Learning
-  - name: Other
+  - name: MasCot
     tag: Demo
 
 design:
