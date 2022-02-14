@@ -5,7 +5,7 @@ widget: portfolio
 
 # This file represents a page section.
 headless: true
-active: false
+active: ture
 # Order that this section appears on the page.
 weight: 65
 
@@ -27,7 +27,7 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
+  - name: Symmetry in quantitative and algorithmic real algebraic geometry
     tag: Deep Learning
   - name: Other
     tag: Demo
