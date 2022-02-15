@@ -26,13 +26,13 @@ content:
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
   - name: POEMA
-    tag: '*'
+    tag: poema
   - name: SymmRAG
-    tag: Deep Learning
+    tag: tfs
   - name: Lie-Størmer
-    tag: Demo
+    tag: LSC
   - name: MasCot
-    tag: Demo
+    tag: aurora
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
