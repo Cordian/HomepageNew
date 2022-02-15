@@ -1,5 +1,5 @@
 ---
-title: Example Project
+title: POEMA
 summary: An example of using the in-built project page.
 tags:
 - Deep Learning
@@ -16,7 +16,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/POEMA_H2020
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -30,10 +30,11 @@ url_video: ""
 slides: 
 ---
 
-POEMA aims to train scientists at the interplay of algebra, geometry and computer science for polynomial optimization problems and to foster scientific and technological advances, stimulating interdisciplinary and intersectoriality knowledge exchange between algebraists, geometers, computer scientists and industrial actors facing real-life optimization problems.
+POEMA is a Marie Skłodowska-Curie Innovative Training Network (2019-2022), offering 15 PhD positions starting from September 2019.
 
-Project Coordinator: INRIA
-Technical Coordinator:  Bernard Mourrain (INRIA)
+Its goal is to train scientists at the interplay of algebra, geometry and computer science for polynomial optimization problems and to foster scientific and technological advances, stimulating interdisciplinary and intersectoriality knowledge exchange between algebraists, geometers, computer scientists and industrial actors facing real-life optimization problems (read more)
+
+Pro
 
 POEMA is funded under the H2020-MSCA-ITN-2018 call and is part of the Marie Sklodowska-Curie Actions — Innovative Training Networks (ITN) funding scheme.
 Grant agreement No: 813211
