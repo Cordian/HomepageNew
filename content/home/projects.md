@@ -25,9 +25,9 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-  - name: POEMA
+  - name: Filter
     tag: poema
-  - name: SymmRAG
+  - name: POEMA
     tag: tfs
   - name: Lie-Størmer
     tag: LSC
