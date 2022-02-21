@@ -61,6 +61,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://no.linkedin.com/in/cordian-riener-3ab0a44
+- icon: rg
+  icon_pack: fab
+  link: https://no.linkedin.com/in/cordian-riener-3ab0a44
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
