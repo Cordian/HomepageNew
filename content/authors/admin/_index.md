@@ -51,19 +51,21 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: mailto:cordian.riener-at-uit.no
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/cordian1723
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
+- icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: ai
   link: https://scholar.google.com/citations?user=PxhL52MAAAAJ
-- icon: linkedin
-  icon_pack: fab
-  link: https://no.linkedin.com/in/cordian-riener-3ab0a44
 - icon: researchgate-square
   icon_pack: ai
   link: https://www.researchgate.net/profile/Cordian-Riener
+- icon: linkedin
+  icon_pack: fab
+  link: https://no.linkedin.com/in/cordian-riener-3ab0a44
+
+
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
