@@ -1,0 +1,239 @@
+@article{riener2006extreme,
+  title={On extreme forms in dimension 8},
+  author={Riener, Cordian},
+  journal={Journal de th{\'e}orie des nombres de Bordeaux},
+  volume={18},
+  number={3},
+  pages={677--682},
+  year={2006},
+  publisher={Universit{\'e} de Bordeaux 1, laboratoire de math{\'e}matiques pures}
+}
+
+@article{riener2008positive,
+  title={Positive Polynome und semidefinite Optimierung},
+  author={Riener, Cordian and Theobald, Thorsten},
+  journal={Jahresbericht der DMV},
+  volume={100},
+  pages={57--76},
+  year={2008}
+}
+
+@article{riener2012degree,
+  title={On the degree and half-degree principle for symmetric polynomials},
+  author={Riener, Cordian},
+  journal={Journal of Pure and Applied Algebra},
+  volume={216},
+  number={4},
+  pages={850--856},
+  year={2012},
+  publisher={North-Holland}
+}
+
+@article{kovavcec2012note,
+  title={A note on extrema of linear combinations of elementary symmetric functions},
+  author={Kova{\v{c}}ec, Alexander and Kuhlmann, Salma and Riener, Cordian},
+  journal={Linear and Multilinear Algebra},
+  volume={60},
+  number={2},
+  pages={219--224},
+  year={2012},
+  publisher={Taylor \& Francis Group}
+}
+
+@article{basu2017bounding,
+  title={Bounding the equivariant Betti numbers of symmetric semi-algebraic sets},
+  author={Basu, Saugata and Riener, Cordian},
+  journal={Advances in Mathematics},
+  volume={305},
+  pages={803--855},
+  year={2017}
+}
+
+@article{riener2016symmetric,
+  title={Symmetric semi-algebraic sets and non-negativity of symmetric polynomials},
+  author={Riener, Cordian},
+  journal={Journal of Pure and Applied Algebra},
+  volume={220},
+  number={8},
+  pages={2809--2815},
+  year={2016}
+}
+
+@article{gorlach2016deciding,
+  title={Deciding positivity of multisymmetric polynomials},
+  author={G{\"o}rlach, Paul and Riener, Cordian and Wei{\ss}er, Tillmann},
+  journal={Journal of Symbolic Computation},
+  volume={74},
+  pages={603--616},
+  year={2016}
+}
+
+@article{basu2020isotypic,
+  title={On the isotypic decomposition of cohomology modules of symmetric semi-algebraic sets: polynomial bounds on multiplicities},
+  author={Basu, Saugata and Riener, Cordian},
+  journal={International Mathematics Research Notices},
+  volume={2020},
+  number={7},
+  pages={2054--2113},
+  year={2020}
+}
+
+@inproceedings{friedl2018reflection,
+  title={Reflection groups, reflection arrangements, and invariant real varieties},
+  author={Friedl, Tobias and Riener, Cordian and Sanyal, Raman},
+  booktitle={Proceedings of the AMS},
+  volume={146},
+  number={3},
+  pages={1031--1045},
+  year={2018}
+}
+
+@article{riener2013exploiting,
+  title={Exploiting symmetries in SDP-relaxations for polynomial optimization},
+  author={Riener, Cordian and Theobald, Thorsten and Andr{\'e}n, Lina Jansson and Lasserre, Jean B},
+  journal={Mathematics of Operations Research},
+  volume={38},
+  number={1},
+  pages={122--141},
+  year={2013},
+  publisher={INFORMS}
+}
+
+@incollection{basu2017efficient,
+  title={Efficient algorithms for computing the Euler-Poincar{\'e} characteristic of symmetric semi-algebraic sets},
+  author={Basu, Saugata and Riener, Cordian},
+  booktitle={Ordered Algebraic Structures and Related Topics, Contemporary Mathematics},
+  volume={697},
+  pages={53--81},
+  year={2017},
+  publisher={AMS}
+}
+
+@article{riener2017irreducible,
+  title={On irreducible components of real exponential hypersurfaces},
+  author={Riener, Cordian and Vorobjov, Nicolai},
+  journal={Arnold Mathematical Journal},
+  volume={3},
+  number={3},
+  pages={423--443},
+  year={2017}
+}
+
+@article{basu2018equivariant,
+  title={On the equivariant Betti numbers of symmetric definable sets: vanishing, bounds and algorithms},
+  author={Basu, Saugata and Riener, Cordian},
+  journal={Selecta Mathematica},
+  volume={24},
+  number={4},
+  pages={3241--3281},
+  year={2018}
+}
+
+@article{riener2018optimization,
+  title={Optimization approaches to quadrature: new characterizations of Gaussian quadrature on the line and quadrature with few nodes on plane algebraic curves, on the plane and in higher dimensions},
+  author={Riener, Cordian and Schweighofer, Markus},
+  journal={Journal of Complexity},
+  volume={45},
+  pages={22--54},
+  year={2018}
+}
+
+@article{blekherman2020generalized,
+  title={Generalized eigenvalue methods for Gaussian quadrature rules},
+  author={Blekherman, Grigoriy and Kummer, Mario and Riener, Cordian and Schweighofer, Markus and Vinzant, Cynthia},
+  journal={Annales Henri Lebesgue},
+  volume={3},
+  pages={1327--1341},
+  year={2020},
+  publisher={ENS Rennes}
+}
+
+@inproceedings{riener2018real,
+  title={Real root finding for equivariant semi-algebraic systems},
+  author={Riener, Cordian and Din, Mohab Safey El},
+  booktitle={International Symposium on Symbolic and Algebraic Computation},
+  volume={2018},
+  pages={335--342},
+  year={2018}
+}
+
+@article{basu2021vandermonde,
+  title={Vandermonde varieties, mirrored spaces, and the cohomology of symmetric semi-algebraic sets},
+  author={Basu, Saugata and Riener, Cordian},
+  journal={Foundations of Computational Mathematics},
+  year={2021}
+}
+
+@article{moustrou2021symmetric,
+  title={Symmetric ideals, Specht polynomials and solutions to symmetric systems of equations},
+  author={Moustrou, Philippe and Riener, Cordian and Verdure, Hugues},
+  journal={Journal of Symbolic Computation},
+  volume={107},
+  pages={106--121},
+  year={2021}
+}
+
+@article{blekherman2021symmetric,
+  title={Symmetric nonnegative forms and sums of squares},
+  author={Blekherman, Grigoriy and Riener, Cordian},
+  journal={Discrete \& Computational Geometry},
+  volume={65},
+  pages={764--799},
+  year={2021}
+}
+
+@article{debus2020reflection,
+  title={Reflection groups and cones of sums of squares},
+  author={Debus, Sebastian and Riener, Cordian},
+  journal={arXiv preprint arXiv:2011.09997},
+  year={2020}
+}
+
+@phdthesis{riener2011symmetries,
+  title={Symmetries in Semidefinite and Polynomial Optimization: Relaxations, Combinatorics, and the Degree Principle},
+  author={Riener, Cordian Benedikt},
+  year={2011},
+  school={Univ.-Bibliothek Frankfurt am Main}
+}
+
+@article{moustrou2021symmetry,
+  title={Symmetry reduction in AM/GM-based optimization},
+  author={Moustrou, Philippe and Naumann, Helen and Riener, Cordian and Theobald, Thorsten and Verdure, Hugues},
+  journal={SIAM J. Optimization},
+  year={2021}
+}
+
+@article{miklos2021p,
+  title={\# P-hardness proofs of matrix immanants evaluated on restricted matrices},
+  author={Miklos, Istvan and Riener, Cordian},
+  journal={arXiv preprint arXiv:2103.04934},
+  year={2021}
+}
+
+@article{piene2021return,
+  title={Return of the plane evolute},
+  author={Piene, Ragni and Riener, Cordian and Shapiro, Boris},
+  journal={arXiv:2110.11691},
+  year={2021}
+}
+
+@article{hubert2022polynomial,
+  title={Polynomial description for the T-Orbit Spaces of Multiplicative Actions},
+  author={Hubert, Evelyne and Metzlaff, Tobias and Riener, Cordian},
+  journal={arxiv:2203.13152},
+  year={2022}
+}
+
+@article{riener2022linear,
+  title={Linear slices of hyperbolic polynomials and positivity of symmetric polynomial functions},
+  author={Riener, Cordian and Schabert, Robin},
+  journal={arXiv preprint arXiv:2203.08727},
+  year={2022}
+}
+
+@article{kummer2022equivariant,
+  title={Equivariant algebraic and semi-algebraic geometry of infinite affine space},
+  author={Kummer, Mario and Riener, Cordian},
+  journal={arXiv preprint arXiv:2203.11921},
+  year={2022}
+}
