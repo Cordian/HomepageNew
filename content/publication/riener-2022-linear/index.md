@@ -1,17 +1,15 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Optimization approaches to quadrature: new characterizations of Gaussian quadrature
-  on the line and quadrature with few nodes on plane algebraic curves, on the plane
-  and in higher dimensions'
+title: 'Linear slices of hyperbolic polynomials and positivity of symmetric polynomial functions'
 subtitle: ''
 summary: ''
 authors:
 - Cordian Riener
-- Markus Schweighofer
+- Robin SChabert
 tags: []
 categories: []
-date: '2018-01-01'
+date: '2022-03-02'
 lastmod: 2022-02-13T11:29:54+01:00
 featured: false
 draft: false
@@ -34,5 +32,5 @@ publishDate: '2022-03-27T14:56:34.574597Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Journal of Complexity*'
+publication: '*arXiv:2203.08727'
 ---
