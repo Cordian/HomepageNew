@@ -5,7 +5,7 @@ title: 'Equivariant algebraic and semi-algebraic geometry of infinite affine spa
 subtitle: ''
 summary: ''
 authors:
-- Mario Kummer
+- <a href="www.cordian.de> Mario Kummer
 - Cordian Riener
 tags: []
 categories: []
