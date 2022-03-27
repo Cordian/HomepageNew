@@ -1,15 +1,15 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Linear slices of hyperbolic polynomials and positivity of symmetric polynomial functions'
+title: 'Equivariant algebraic and semi-algebraic geometry of infinite affine space'
 subtitle: ''
 summary: ''
 authors:
+- Mario Kummer
 - Cordian Riener
-- Robin Schabert
 tags: []
 categories: []
-date: '2022-03-02'
+date: '2022-03-26'
 lastmod: 2022-02-13T11:29:54+01:00
 featured: false
 draft: false
@@ -32,5 +32,5 @@ publishDate: '2022-03-27T14:56:34.574597Z'
 publication_types:
 - '2'
 abstract: ''
-publication: 'arXiv:2203.08727'
+publication: 'arXiv:2203.11921}'
 ---
