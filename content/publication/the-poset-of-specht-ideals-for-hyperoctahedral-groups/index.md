@@ -1,12 +1,12 @@
 ---
 title: The poset of Specht ideals for hyperoctahedral groups
 publication_types:
-  - "0"
+  - "3"
 authors:
-  - S Debus
-  - P Moustrou
-  - C Riener
-  - H Verdure
+  - Sebastian Debus
+  - Philippe Moustrou
+  - Cordian Riener
+  - Hugues Verdure
 draft: false
 featured: false
 image:
