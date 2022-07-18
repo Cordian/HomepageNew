@@ -7,6 +7,8 @@ authors:
   - Philippe Moustrou
   - Cordian Riener
   - Hugues Verdure
+doi: arxiv:2206.08925
+publication: Arxiv
 draft: false
 featured: false
 image:
