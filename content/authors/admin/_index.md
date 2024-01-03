@@ -82,8 +82,8 @@ highlight_name: true
 title: Cordian Riener
 email: ""
 ---
-I am a professor of mathematics at UiT The Arctic University of Norway. I am currently also acting as Pro Dean for PhD education at the Faculty of Science and Technology. Currently, I have the pleasure to serve as Secretary of the [SIAM Activity Group in Algebraic Geometry](http://wiki.siam.org/siag-ag/index.php/Main_Page) as well as member of the board of the [Abel prize](https://abelprize.no/).
+I am a professor of mathematics at UiT The Arctic University of Norway. I am currently also acting as Pro Dean for PhD education at the Faculty of Science and Technology. Currently, I have the pleasure to serve as leader of the  [Norwegian Mathematical Council ](https://matematikkraadet.wixsite.com/matematikkraadet) as well as member of the board of the [Abel prize](https://abelprize.no/).
 
-My research interests include real algebraic geometry, optimization, computational complexity, and computer algebra. I am leading the  [Algebra group](https://uit.no/research/algebra) and I am also one of the initiators of the [Lie-Størmer Center](https://uit.no/research/lsc) for Fundamental Structures in Computational and Pure Mathematics. 
+My research interests include real algebraic geometry, optimization, computational complexity, and computer algebra. I am leading the [Algebra group](https://uit.no/research/algebra) and I am also one of directors of the [Lie-Størmer Center](https://uit.no/research/lsc) for Fundamental Structures in Computational and Pure Mathematics. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
