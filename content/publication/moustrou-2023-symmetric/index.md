@@ -34,5 +34,5 @@ publishDate: '2024-01-02T22:28:06.935907Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*arXiv preprint arXiv:2312.10500*'
+publication: '*Journal of Symbolic Computation*'
 ---
