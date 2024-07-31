@@ -33,5 +33,5 @@ publishDate: '2022-03-27T14:56:34.721623Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*arXiv:2110.11691*'
+publication: 'Annales de l’Institut Fourier'
 ---
