@@ -32,7 +32,7 @@ image:
 projects: []
 publishDate: '2024-01-02T22:28:05.804252Z'
 publication_types:
-- '2'
+- '6'
 abstract: ''
 publication: '*Algebraic Combinatorics*'
 ---
