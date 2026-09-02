@@ -1,0 +1,302 @@
+# One entry per paper. To add a publication, copy a block under the right year.
+# 'selected: true' also shows it under 'Selected publications' on the front page.
+- year: 2026
+  entries:
+    - title: "The wonderful geometry of the Vandermonde map"
+      authors: "with J. Acevedo, G. Blekherman, and S. Debus"
+      venue: "Foundations of Computational Mathematics 26, 2005–2051"
+      links:
+        - label: doi
+          url: https://doi.org/10.1007/s10208-025-09718-6
+        - label: arXiv
+          url: https://arxiv.org/abs/2303.09512
+      selected: true
+    - title: "Quadrature rules with few nodes supported on algebraic curves"
+      authors: "with E. Teixeira Turatti"
+      venue: "Journal of Complexity 96, 102067"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jco.2026.102067
+        - label: arXiv
+          url: https://arxiv.org/abs/2509.06643
+    - title: "Slices of stable polynomials and connections to the Grace–Walsh–Szegő theorem"
+      authors: "with S. Debus and R. Schabert"
+      venue: "Journal of Symbolic Computation 133, 102488"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jsc.2025.102488
+    - title: "Constructively describing orbit spaces of finite groups by few inequalities"
+      authors: "with P. Moustrou and R. Schabert"
+      venue: "Journal of Symbolic Computation 132, 102471"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jsc.2025.102471
+    - title: "#P-hardness proofs of matrix immanants evaluated on restricted matrices"
+      authors: "with I. Miklós"
+      venue: "Theoretical Computer Science 1062, 115660"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.tcs.2025.115660
+    - title: "Symmetric and isotypic Hilbert series for symmetric ideals"
+      authors: "with H. Breloer"
+      venue: "preprint"
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2606.18895
+- year: 2025
+  entries:
+    - title: "Return of the plane evolute"
+      authors: "with R. Piene and B. Shapiro"
+      venue: "Annales de l’Institut Fourier 75, 1685–1751"
+      links:
+        - label: doi
+          url: https://doi.org/10.5802/aif.3703
+        - label: arXiv
+          url: https://arxiv.org/abs/2110.11691
+    - title: "Optimization of trigonometric polynomials with crystallographic symmetry and spectral bounds for set avoiding graphs"
+      authors: "with E. Hubert, T. Metzlaff, and P. Moustrou"
+      venue: "Mathematical Programming 213, 517–573"
+      links:
+        - label: doi
+          url: https://doi.org/10.1007/s10107-024-02149-1
+      selected: true
+    - title: "Symmetric SAGE and SONC forms, exactness and quantitative gaps"
+      authors: "with P. Moustrou, T. Theobald, and H. Verdure"
+      venue: "Journal of Symbolic Computation 127, 102374"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jsc.2024.102374
+    - title: "On nonnegative invariant quartics in type A"
+      authors: "with S. Debus, C. Goel, and S. Kuhlmann"
+      venue: "Journal of Symbolic Computation 128, 102393"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jsc.2024.102393
+    - title: "Deciding connectivity in symmetric semi-algebraic sets"
+      authors: "with R. Schabert and T. X. Vu"
+      venue: "preprint"
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2503.12275
+- year: 2024
+  entries:
+    - title: "Orbit spaces of Weyl groups acting on compact tori: a unified and explicit polynomial description"
+      authors: "with E. Hubert and T. Metzlaff"
+      venue: "SIAM Journal on Applied Algebra and Geometry 8, 612–649"
+      links:
+        - label: doi
+          url: https://doi.org/10.1137/23M158173X
+    - title: "Connectivity in symmetric semi-algebraic sets"
+      authors: "with R. Schabert and T. X. Vu"
+      venue: "Proceedings of ISSAC 2024, 162–169"
+      links:
+        - label: doi
+          url: https://doi.org/10.1145/3666000.3669687
+        - label: arXiv
+          url: https://arxiv.org/abs/2404.09749
+- year: 2023
+  entries:
+    - title: "Reflection groups and cones of sums of squares"
+      authors: "with S. Debus"
+      venue: "Journal of Symbolic Computation 119, 112–144"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jsc.2023.03.001
+    - title: "Faster real root decision algorithm for symmetric polynomials"
+      authors: "with G. Labahn, M. Safey El Din, É. Schost, and T. X. Vu"
+      venue: "Proceedings of ISSAC 2023, 452–460"
+      links:
+        - label: doi
+          url: https://doi.org/10.1145/3597066.3597097
+        - label: arXiv
+          url: https://arxiv.org/abs/2306.03855
+    - title: "The poset of Specht ideals for hyperoctahedral groups"
+      authors: "with S. Debus, P. Moustrou, and H. Verdure"
+      venue: "Algebraic Combinatorics 6, 615–634"
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2206.08925
+    - title: "Symmetries in polynomial optimization"
+      authors: "with P. Moustrou and H. Verdure"
+      venue: "in: Polynomial Optimization, Moments, and Applications, Springer"
+      links:
+        - label: doi
+          url: https://doi.org/10.1007/978-3-031-38659-6_2
+    - title: "Polynomial Optimization, Moments, and Applications"
+      authors: "edited with M. Kočvara and B. Mourrain"
+      venue: "Springer Optimization and Its Applications, vol. 206"
+      links:
+        - label: doi
+          url: https://doi.org/10.1007/978-3-031-38659-6
+    - title: "A semidefinite programming hierarchy for covering problems in discrete geometry"
+      authors: "with J. Rolfes and F. Vallentin"
+      venue: "preprint"
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2312.11267
+    - title: "Attitudes towards mathematics, achievement, and drop-out intentions among STEM and non-STEM students in Norway"
+      authors: "with G. Óturai and S. E. Martiny"
+      venue: "International Journal of Educational Research Open 4, 100230"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.ijedro.2023.100230
+- year: 2022
+  entries:
+    - title: "Vandermonde varieties, mirrored spaces, and the cohomology of symmetric semi-algebraic sets"
+      authors: "with S. Basu"
+      venue: "Foundations of Computational Mathematics 22, 1395–1462"
+      links:
+        - label: doi
+          url: https://doi.org/10.1007/s10208-021-09519-7
+      selected: true
+    - title: "Equivariant algebraic and semi-algebraic geometry of infinite affine space"
+      authors: "with M. Kummer"
+      venue: "Journal of Algebra"
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2203.11921
+    - title: "Symmetry reduction in AM/GM-based optimization"
+      authors: "with P. Moustrou, H. Naumann, T. Theobald, and H. Verdure"
+      venue: "SIAM Journal on Optimization 32, 765–785"
+      links:
+        - label: doi
+          url: https://doi.org/10.1137/21M1405691
+    - title: "Linear slices of hyperbolic polynomials and positivity of symmetric polynomial functions"
+      authors: "with R. Schabert"
+      venue: "preprint"
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2203.08727
+- year: 2021
+  entries:
+    - title: "Symmetric non-negative forms and sums of squares"
+      authors: "with G. Blekherman"
+      venue: "Discrete & Computational Geometry 65, 764–799"
+      links:
+        - label: doi
+          url: https://doi.org/10.1007/s00454-020-00208-w
+      selected: true
+    - title: "Symmetric ideals, Specht polynomials and solutions to symmetric systems of equations"
+      authors: "with P. Moustrou and H. Verdure"
+      venue: "Journal of Symbolic Computation 107, 106–121"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jsc.2021.02.002
+- year: 2020
+  entries:
+    - title: "Generalized eigenvalue methods for Gaussian quadrature rules"
+      authors: "with G. Blekherman, M. Kummer, M. Schweighofer, and C. Vinzant"
+      venue: "Annales Henri Lebesgue 3, 1327–1341"
+      links:
+        - label: doi
+          url: https://doi.org/10.5802/ahl.62
+    - title: "On the isotypic decomposition of cohomology modules of symmetric semi-algebraic sets: polynomial bounds on multiplicities"
+      authors: "with S. Basu"
+      venue: "International Mathematics Research Notices 2020, 2054–2113"
+      links:
+        - label: doi
+          url: https://doi.org/10.1093/imrn/rny062
+- year: 2018
+  entries:
+    - title: "On the equivariant Betti numbers of symmetric definable sets: vanishing, bounds and algorithms"
+      authors: "with S. Basu"
+      venue: "Selecta Mathematica 24, 3241–3281"
+      links:
+        - label: doi
+          url: https://doi.org/10.1007/s00029-018-0401-7
+    - title: "Optimization approaches to quadrature: new characterizations of Gaussian quadrature on the line and quadrature with few nodes on plane algebraic curves, on the plane and in higher dimensions"
+      authors: "with M. Schweighofer"
+      venue: "Journal of Complexity 45, 22–54"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jco.2017.10.002
+    - title: "Real root finding for equivariant semi-algebraic systems"
+      authors: "with M. Safey El Din"
+      venue: "Proceedings of ISSAC 2018"
+      links:
+        - label: doi
+          url: https://doi.org/10.1145/3208976.3209023
+    - title: "Reflection groups, reflection arrangements, and invariant real varieties"
+      authors: "with T. Friedl and R. Sanyal"
+      venue: "Proceedings of the American Mathematical Society 146, 1031–1045"
+      links:
+        - label: doi
+          url: https://doi.org/10.1090/proc/13821
+- year: 2017
+  entries:
+    - title: "Bounding the equivariant Betti numbers of symmetric semi-algebraic sets"
+      authors: "with S. Basu"
+      venue: "Advances in Mathematics 305, 803–855"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.aim.2016.09.015
+      selected: true
+    - title: "Efficient algorithms for computing the Euler–Poincaré characteristic of symmetric semi-algebraic sets"
+      authors: "with S. Basu"
+      venue: "in: Ordered Algebraic Structures and Related Topics, Contemporary Mathematics 697"
+      links:
+        - label: doi
+          url: https://doi.org/10.1090/conm/697
+    - title: "On irreducible components of real exponential hypersurfaces"
+      authors: "with N. Vorobjov"
+      venue: "Arnold Mathematical Journal 3, 423–443"
+      links:
+        - label: doi
+          url: https://doi.org/10.1007/s40598-017-0073-y
+- year: 2016
+  entries:
+    - title: "Bounds on the individual Betti numbers of complex varieties, stability and algorithms"
+      authors: "with S. Basu"
+      venue: "preprint"
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/1606.04069
+    - title: "Deciding positivity of multisymmetric polynomials"
+      authors: "with P. Görlach and T. Weißer"
+      venue: "Journal of Symbolic Computation 74, 603–616"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jsc.2015.10.001
+    - title: "Symmetric semi-algebraic sets and non-negativity of symmetric polynomials"
+      venue: "Journal of Pure and Applied Algebra 220, 2809–2815"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jpaa.2015.12.010
+- year: 2013
+  entries:
+    - title: "Exploiting symmetries in SDP-relaxations for polynomial optimization"
+      authors: "with T. Theobald, L. Jansson Andrén, and J. B. Lasserre"
+      venue: "Mathematics of Operations Research 38, 122–141"
+      links:
+        - label: doi
+          url: https://doi.org/10.1287/moor.1120.0558
+      selected: true
+- year: 2012
+  entries:
+    - title: "On the degree and half-degree principle for symmetric polynomials"
+      venue: "Journal of Pure and Applied Algebra 216, 850–856"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jpaa.2011.08.012
+    - title: "A note on extrema of linear combinations of elementary symmetric functions"
+      authors: "with A. Kovačec and S. Kuhlmann"
+      venue: "Linear and Multilinear Algebra 60, 219–224"
+      links:
+        - label: doi
+          url: https://doi.org/10.1080/03081087.2011.589038
+- year: 2011
+  entries:
+    - title: "Symmetries in semidefinite and polynomial optimization: relaxations, combinatorics, and the degree principle"
+      venue: "PhD thesis, Goethe University Frankfurt"
+- year: 2008
+  entries:
+    - title: "Positive Polynome und semidefinite Optimierung"
+      authors: "with T. Theobald"
+      venue: "Jahresbericht der DMV 110, 3–21"
+- year: 2006
+  entries:
+    - title: "On extreme forms in dimension 8"
+      venue: "Journal de théorie des nombres de Bordeaux 18, 677–682"
+      links:
+        - label: doi
+          url: https://doi.org/10.5802/jtnb.565

@@ -1,0 +1,8 @@
+- title: "Positivity &amp; sums of squares"
+  text: "When is a real polynomial non-negative, and when can this be certified algebraically? Cones of positive forms, Positivstellensätze, and the geometry that separates non-negativity from sums of squares."
+- title: "Symmetric semi-algebraic geometry"
+  text: "The topology and geometry of real varieties and semi-algebraic sets invariant under reflection groups — equivariant Betti numbers, Vandermonde varieties, orbit spaces, and Specht ideals."
+- title: "Polynomial &amp; semidefinite optimization"
+  text: "Moment and sums-of-squares relaxations for polynomial problems, and symmetry reduction as a tool to shrink them — from crystallographic symmetries to problems in discrete geometry."
+- title: "Symbolic computation &amp; complexity"
+  text: "Algorithms for real solving and connectivity that exploit invariance, and the complexity-theoretic side of algebra: hardness of immanants, quadrature, and computation with symmetric input."
