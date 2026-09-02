@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="hero-outer">
+  <div class="hero-fig" aria-hidden="true">
+{{ partial "orbit.html" . }}
+  </div>
+  <div class="wrap hero">
+    <h1>{{ site.Title }}</h1>
+    <p class="role">{{ .Params.role }}</p>
+    <p class="place">{{ .Params.place }}</p>
+    <p class="lede">{{ .Params.lede }}</p>
+    {{ with .Params.upcoming }}
+    <div class="upcoming">
+      <span class="meta">Upcoming</span>
+      {{ . | safeHTML }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+<main id="main">
+<div class="wrap">
+
+<section id="research" class="first">
+  <h2>Research</h2>
+  <div class="themes">
+  {{ range site.Data.research }}
+    <div>
+      <h3>{{ .title | safeHTML }}</h3>
+      <p>{{ .text | safeHTML }}</p>
+    </div>
+  {{ end }}
+  </div>
+</section>
+
+<section id="intro">
+  <div class="about">
+    <div>
+      {{ .Content }}
+      <p><a href="/about/">More about me &rarr;</a></p>
+    </div>
+    <figure>
+      <img src="/images/portrait.jpg" alt="Portrait of Cordian Riener" width="900" height="765">
+    </figure>
+  </div>
+</section>
+
+<section id="selected">
+  <h2>Selected publications</h2>
+  <ol class="pubs">
+  {{ range site.Data.publications }}{{ range .entries }}{{ if .selected }}{{ partial "pub-item.html" . }}
+  {{ end }}{{ end }}{{ end }}
+  </ol>
+  <p class="more"><a href="/publications/">Full list of publications &rarr;</a></p>
+</section>
+
+</div>
+</main>
+{{ end }}
