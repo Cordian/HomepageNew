@@ -1,0 +1,5 @@
+<li><span class="pub-title">{{ .title | safeHTML }}</span><br>
+{{- with .authors }}<span class="pub-authors">{{ . | safeHTML }}</span><br>{{ end -}}
+<span class="pub-venue">{{ .venue | safeHTML }}</span>
+{{- with .links }} <span class="pub-links">{{ range . }}<a href="{{ .url }}">{{ .label }}</a>{{ end }}</span>{{ end -}}
+</li>

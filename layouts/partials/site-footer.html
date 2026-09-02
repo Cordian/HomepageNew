@@ -1,0 +1,25 @@
+<footer class="site" id="contact">
+  <div class="wrap">
+    <div class="contact-cols">
+      <div>
+        <h2>Contact</h2>
+        <address>
+          <ul>
+            <li><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></li>
+            <li>{{ site.Params.phone }}</li>
+            <li>{{ site.Params.address | safeHTML }}</li>
+          </ul>
+        </address>
+      </div>
+      <div>
+        <h2>Elsewhere</h2>
+        <ul>
+{{- range site.Params.profiles }}
+          <li><a href="{{ .url }}">{{ .name }}</a></li>
+{{- end }}
+        </ul>
+      </div>
+    </div>
+    <p class="colophon">&copy; {{ site.Title }} {{ now.Year }} &middot; {{ site.Params.colophon | safeHTML }}</p>
+  </div>
+</footer>
