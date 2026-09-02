@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main id="main">
+<div class="wrap wide">
+<section class="first">
+  <h2 class="pagetitle">{{ .Title }}</h2>
+  <div class="prose">{{ .Content }}</div>
+  {{ $imgs := .Resources.ByType "image" }}
+  {{ if $imgs }}
+  <div class="gallery">
+    {{ range $imgs }}
+    {{ $thumb := .Resize "900x q85" }}
+    {{ $full := .Resize "2200x q90" }}
+    <a href="{{ $full.RelPermalink }}">
+      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" alt="Aurora borealis over Tromsø">
+    </a>
+    {{ end }}
+  </div>
+  {{ else }}
+  <p class="meta">The sky is clear, the photos are on their way.</p>
+  {{ end }}
+</section>
+</div>
+</main>
+{{ end }}

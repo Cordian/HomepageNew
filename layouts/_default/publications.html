@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main id="main">
+<div class="wrap">
+<section class="first">
+  <h2 class="pagetitle">Publications</h2>
+  <p class="meta">Journal articles, refereed conference papers, books, and selected preprints. Continuously updated lists live on <a href="https://arxiv.org/search/?searchtype=author&amp;query=Riener%2C+Cordian">arXiv</a>, <a href="https://scholar.google.com/citations?user=PxhL52MAAAAJ">Google Scholar</a>, and <a href="https://dblp.org/pid/52/9367.html">dblp</a>.</p>
+  {{ range site.Data.publications }}
+  <div class="yearblock">
+    <h3>{{ .year }}</h3>
+    <ol class="pubs">
+    {{ range .entries }}{{ partial "pub-item.html" . }}
+    {{ end }}
+    </ol>
+  </div>
+  {{ end }}
+</section>
+</div>
+</main>
+{{ end }}

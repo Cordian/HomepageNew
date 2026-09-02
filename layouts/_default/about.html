@@ -1,0 +1,28 @@
+{{ define "main" }}
+<main id="main">
+<div class="wrap">
+<section class="first">
+  <h2 class="pagetitle">{{ .Title }}</h2>
+  <div class="prose">{{ .Content }}</div>
+</section>
+
+<section id="service">
+  <h2>Service &amp; leadership</h2>
+  <dl class="roles">
+  {{ range site.Data.service }}
+    <div><dt>{{ .role | safeHTML }}</dt><dd>{{ .when }}</dd></div>
+  {{ end }}
+  </dl>
+</section>
+
+<section id="positions">
+  <h2>Positions &amp; education</h2>
+  <dl class="roles">
+  {{ range site.Data.positions }}
+    <div><dt>{{ .role | safeHTML }}</dt><dd>{{ .when }}</dd></div>
+  {{ end }}
+  </dl>
+</section>
+</div>
+</main>
+{{ end }}

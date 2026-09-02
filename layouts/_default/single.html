@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main id="main">
+<div class="wrap">
+<section class="first page">
+  <h2 class="pagetitle">{{ .Title }}</h2>
+  {{ with .Params.term }}<p class="meta">{{ . }}</p>{{ end }}
+  <div class="content">{{ .Content }}</div>
+</section>
+</div>
+</main>
+{{ end }}

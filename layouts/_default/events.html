@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main id="main">
+<div class="wrap">
+<section class="first">
+  <h2 class="pagetitle">{{ .Title }}</h2>
+  <div class="prose">{{ .Content }}</div>
+  <dl class="roles" style="margin-top:1.6rem">
+  {{ range site.Data.events }}
+    <div><dt>{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}{{ with .detail }} &mdash; <span class="detail">{{ . | safeHTML }}</span>{{ end }}</dt><dd>{{ .when }}</dd></div>
+  {{ end }}
+  </dl>
+</section>
+</div>
+</main>
+{{ end }}
