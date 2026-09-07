@@ -1,0 +1,59 @@
+baseURL = "https://www.cordian.de/"
+languageCode = "en"
+title = "Cordian Riener"
+disableKinds = ["taxonomy", "term"]
+
+# ------------------------------------------------------------------
+# The menu, in one place. Add/remove/reorder entries here only.
+# ------------------------------------------------------------------
+[[menu.main]]
+  name = "Research"
+  url = "/#research"
+  weight = 10
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 20
+[[menu.main]]
+  name = "Teaching"
+  url = "/teaching/"
+  weight = 30
+[[menu.main]]
+  name = "Events"
+  url = "/events/"
+  weight = 35
+[[menu.main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 40
+[[menu.main]]
+  name = "Aurora"
+  url = "/aurora/"
+  weight = 45
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 50
+
+[params]
+  description = "Cordian Riener is a professor of mathematics at UiT The Arctic University of Norway, working in real algebraic geometry, polynomial optimization, symbolic computation, and computational complexity."
+  email = "cordian.riener@uit.no"
+  phone = "+47 77 64 40 90"
+  address = "Forskningsparken 1, office B425<br>UiT The Arctic University of Norway<br>9037 Tromsø, Norway"
+  colophon = "The line figure on this site is the root polytope of the reflection group H₃, drawn along one of its five-fold axes."
+
+  [[params.profiles]]
+    name = "ORCID"
+    url = "https://orcid.org/0000-0002-1192-3500"
+  [[params.profiles]]
+    name = "Google Scholar"
+    url = "https://scholar.google.com/citations?user=PxhL52MAAAAJ"
+  [[params.profiles]]
+    name = "arXiv"
+    url = "https://arxiv.org/search/?searchtype=author&query=Riener%2C+Cordian"
+  [[params.profiles]]
+    name = "dblp"
+    url = "https://dblp.org/pid/52/9367.html"
+  [[params.profiles]]
+    name = "LinkedIn"
+    url = "https://no.linkedin.com/in/cordian-riener-3ab0a44"
