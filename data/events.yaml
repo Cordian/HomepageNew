@@ -6,7 +6,7 @@
   when: "2027"
 - name: "Midnight Sun Summit in Mathematics and Engineering, UiT Narvik"
   url: https://mssme.netlify.app/
-  detail: "organizer of the session on geometry and optimization, with R. Ríos-Zertuche"
+  detail: "one of the main organizers"
   when: "2026"
 - name: "Real and Complex Wild Dynamics, UiT Tromsø"
   url: https://wild-dynamics-2026.imj-prg.fr/
@@ -16,9 +16,17 @@
   url: https://mathconf.eu/gcc-uit-2025/index.html
   detail: "co-organizer, with T. Boege and H. Verdure"
   when: "2025"
+- name: "MFO–RIMS Tandem Workshop: Optimization, Theoretical Computer Science and Algebraic Geometry — Convexity and Beyond, Oberwolfach"
+  url: https://publications.mfo.de/handle/mfo/4303
+  detail: "co-organizer, with Y. Okamoto, M. Schweighofer, and Y. Sekiguchi"
+  when: "2025"
 - name: "ISSAC — International Symposium on Symbolic and Algebraic Computation, Tromsø"
   url: https://www.issac-conference.org/2023/
   detail: "chair of the local organization"
+  when: "2023"
+- name: "Symmetry, Stability, and Interactions with Computation, CIRM Luminy"
+  url: https://conferences.cirm-math.fr/2892.html
+  detail: "co-organizer, with S. Basu, E. Hubert, and P. Moustrou"
   when: "2023"
 - name: "CATMI — Category Theory at Work in Computational Mathematics and Theoretical Informatics, Bergen"
   url: http://www.catmi.no/
@@ -40,6 +48,7 @@
   detail: "co-organizer"
   when: "2022"
 - name: "MFO–RIMS Tandem Workshop: Symmetries on Polynomial Ideals and Varieties, Oberwolfach"
+  url: https://publications.mfo.de/handle/mfo/3895
   detail: "co-organizer, with G. Fløystad, S. Murai, and K. Yanagawa"
   when: "2021"
 - name: "MEGA — Effective Methods in Algebraic Geometry"
