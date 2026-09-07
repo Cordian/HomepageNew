@@ -1,0 +1,25 @@
+# Centres, networks, and funded projects. One block per project, shown in order.
+- name: "Lie–Størmer Center"
+  url: https://lie-stormer.no
+  detail: "co-director, with H. Munthe-Kaas — a national centre for pure and computational mathematics, funded by the Tromsø Research Foundation"
+  when: "ongoing"
+- name: "TENORS — Tensor Modeling, Geometry and Optimisation"
+  url: https://tenors-network.eu/
+  detail: "Marie Skłodowska-Curie Doctoral Network — UiT node"
+  when: "2024–2028"
+- name: "MASCOT — Mathematical Structures in Computations"
+  url: https://uit.no/research/mascot
+  detail: "a UiT Aurora Center — co-leader, with B. Kruglikov and H. Munthe-Kaas"
+  when: "ongoing"
+- name: "SymRAG — Symmetry in Quantitative and Algorithmic Real Algebraic Geometry"
+  url: https://uit.no/project/symrag
+  detail: "principal investigator — funded by the Tromsø Research Foundation"
+  when: "since 2018"
+- name: "AlToGeLiS — Algebra, Topology, and Geometry in the Life Sciences"
+  url: https://www.altogelis.uni-osnabrueck.de/about.html
+  detail: "advisory board of the international consortium"
+  when: "ongoing"
+- name: "POEMA — Polynomial Optimization, Efficiency through Moments and Algebra"
+  url: http://poema-network.eu/
+  detail: "Marie Skłodowska-Curie Innovative Training Network — UiT node"
+  when: "2019–2023"
