@@ -43,6 +43,32 @@
       links:
         - label: arXiv
           url: https://arxiv.org/abs/2606.18895
+    - title: "Eigenvalues of locally positive semidefinite matrices: non-convexity and geometry"
+      authors: "with J. Acevedo, G. Blekherman, S. Debus, and S. Lee"
+      venue: "preprint"
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2608.15444
+    - title: "The Lie–Størmer Center"
+      authors: "with H. Z. Munthe-Kaas"
+      venue: "EMS Magazine 140, 37–39"
+      links:
+        - label: doi
+          url: https://doi.org/10.4171/MAG/316
+    - title: "Deciding connectivity in symmetric semi-algebraic sets"
+      authors: "with R. Schabert and T. X. Vu"
+      venue: "Journal of Symbolic Computation 138"
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2503.12275
+    - title: "A semidefinite programming hierarchy for covering problems in discrete geometry"
+      authors: "with J. Rolfes and F. Vallentin"
+      venue: "Numerical Algebra, Control and Optimization 16, 157–170"
+      links:
+        - label: doi
+          url: https://doi.org/10.3934/naco.2025015
+        - label: arXiv
+          url: https://arxiv.org/abs/2312.11267
 - year: 2025
   entries:
     - title: "Return of the plane evolute"
@@ -72,12 +98,28 @@
       links:
         - label: doi
           url: https://doi.org/10.1016/j.jsc.2024.102393
-    - title: "Deciding connectivity in symmetric semi-algebraic sets"
-      authors: "with R. Schabert and T. X. Vu"
-      venue: "preprint"
+    - title: "Symbolic computation with symmetric polynomials in real algebraic geometry"
+      authors: "with T. X. Vu"
+      venue: "survey chapter, preprint"
       links:
         - label: arXiv
-          url: https://arxiv.org/abs/2503.12275
+          url: https://arxiv.org/abs/2507.23728
+    - title: "Symmetric nonnegative functions, the tropical Vandermonde cell and superdominance of power sums"
+      authors: "with J. Acevedo, G. Blekherman, and S. Debus"
+      venue: "Collectanea Mathematica"
+      links:
+        - label: doi
+          url: https://doi.org/10.1007/s13348-025-00481-z
+        - label: arXiv
+          url: https://arxiv.org/abs/2408.04616
+    - title: "Equivariant algebraic and semi-algebraic geometry of infinite affine space"
+      authors: "with M. Kummer"
+      venue: "Journal of Algebra 666, 28–46"
+      links:
+        - label: doi
+          url: https://doi.org/10.1016/j.jalgebra.2024.11.016
+        - label: arXiv
+          url: https://arxiv.org/abs/2203.11921
 - year: 2024
   entries:
     - title: "Orbit spaces of Weyl groups acting on compact tori: a unified and explicit polynomial description"
@@ -94,6 +136,12 @@
           url: https://doi.org/10.1145/3666000.3669687
         - label: arXiv
           url: https://arxiv.org/abs/2404.09749
+    - title: "Linear slices of hyperbolic polynomials and positivity of symmetric polynomial functions"
+      authors: "with R. Schabert"
+      venue: "Journal of Pure and Applied Algebra 228, 107552"
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2203.08727
 - year: 2023
   entries:
     - title: "Reflection groups and cones of sums of squares"
@@ -128,12 +176,6 @@
       links:
         - label: doi
           url: https://doi.org/10.1007/978-3-031-38659-6
-    - title: "A semidefinite programming hierarchy for covering problems in discrete geometry"
-      authors: "with J. Rolfes and F. Vallentin"
-      venue: "preprint"
-      links:
-        - label: arXiv
-          url: https://arxiv.org/abs/2312.11267
     - title: "Attitudes towards mathematics, achievement, and drop-out intentions among STEM and non-STEM students in Norway"
       authors: "with G. Óturai and S. E. Martiny"
       venue: "International Journal of Educational Research Open 4, 100230"
@@ -149,24 +191,12 @@
         - label: doi
           url: https://doi.org/10.1007/s10208-021-09519-7
       selected: true
-    - title: "Equivariant algebraic and semi-algebraic geometry of infinite affine space"
-      authors: "with M. Kummer"
-      venue: "Journal of Algebra"
-      links:
-        - label: arXiv
-          url: https://arxiv.org/abs/2203.11921
     - title: "Symmetry reduction in AM/GM-based optimization"
       authors: "with P. Moustrou, H. Naumann, T. Theobald, and H. Verdure"
       venue: "SIAM Journal on Optimization 32, 765–785"
       links:
         - label: doi
           url: https://doi.org/10.1137/21M1405691
-    - title: "Linear slices of hyperbolic polynomials and positivity of symmetric polynomial functions"
-      authors: "with R. Schabert"
-      venue: "preprint"
-      links:
-        - label: arXiv
-          url: https://arxiv.org/abs/2203.08727
 - year: 2021
   entries:
     - title: "Symmetric non-negative forms and sums of squares"
