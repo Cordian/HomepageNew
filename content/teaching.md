@@ -1,6 +1,5 @@
 ---
 title: "Teaching"
-term: "Autumn 2026"
 url: /teaching/
 description: "Teaching of Cordian Riener at UiT The Arctic University of Norway."
 ---
