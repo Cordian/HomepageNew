@@ -4,16 +4,32 @@
   url: https://pit2027.puremath.no
   detail: "organizer, with N. Srivastava and B. Sturmfels — 10–14 May 2027"
   when: "2027"
+- name: "Midnight Sun Summit in Mathematics and Engineering, UiT Narvik"
+  url: https://mssme.netlify.app/
+  detail: "organizer of the session on geometry and optimization, with R. Ríos-Zertuche"
+  when: "2026"
+- name: "Real and Complex Wild Dynamics, UiT Tromsø"
+  url: https://wild-dynamics-2026.imj-prg.fr/
+  detail: "local organizer, with N. Yoccoz"
+  when: "2026"
+- name: "Fall school: Geometry in Cryptography and Communication, UiT Tromsø"
+  url: https://mathconf.eu/gcc-uit-2025/index.html
+  detail: "co-organizer, with T. Boege and H. Verdure"
+  when: "2025"
 - name: "ISSAC — International Symposium on Symbolic and Algebraic Computation, Tromsø"
   url: https://www.issac-conference.org/2023/
   detail: "chair of the local organization"
   when: "2023"
+- name: "CATMI — Category Theory at Work in Computational Mathematics and Theoretical Informatics, Bergen"
+  url: http://www.catmi.no/
+  detail: "scientific committee; a Lie–Størmer Center meeting"
+  when: "2023"
+- name: "Lie–Størmer Colloquium"
+  detail: "the centre's annual invitation-only meeting, bridging pure and computational mathematics"
+  when: "since 2022"
 - name: "Mørketidens mattemøte, UiT Tromsø"
   detail: "the annual polar-night mathematics meeting — main organizer"
   when: "since 2020"
-- name: "Mathematics and Data, research school, UiT Tromsø"
-  detail: "co-organizer, with F. Mohammadi, P. Moustrou, and H. Verdure"
-  when: "2022"
 - name: "Nordfjordeid summer school: Topics in Real and Tropical Algebraic Geometry"
   detail: "co-organizer, with K. Ranestad"
   when: "2022"
@@ -33,6 +49,10 @@
 - name: "Arctic Applied Algebra, Tromsø"
   detail: "organizer; editor of the associated special issue of the Journal of Pure and Applied Algebra, with S. Basu and M.-F. Roy"
   when: "2019"
+- name: "Summer School in Algebraic Statistics, UiT Tromsø"
+  url: https://site.uit.no/alg-stat/
+  detail: "co-organizer, with P. Moustrou and H. Verdure"
+  when: "2018"
 # - name: "NCM school on Real Algebraic Geometry, IIT Bombay"
 #   detail: "co-organizer"
 #   when: "2026"
