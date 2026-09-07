@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+term: "Autumn 2026"
 url: /teaching/
 description: "Teaching of Cordian Riener at UiT The Arctic University of Norway."
 ---
@@ -17,6 +18,10 @@ Over the years I have taught across the curriculum at UiT: real algebraic geomet
 ## Special curricula
 
 For advanced students I regularly offer special curricula and reading courses; recent topics include semidefinite and polynomial optimization, invariant theory and representation theory, symmetry in computation, and geometric combinatorics.
+
+## Courses across Norway
+
+Since 2021 I have regularly organized advanced courses that gather master's students from universities across Norway, combining weekly online lectures with in-person meetings in Tromsø and Bergen — a way for a small mathematical community to offer courses none of us could alone. The format is described in [this UiT article](https://uit.no/nyheter/artikkel?p_document_id=759214) (in Norwegian); today such courses run through the [Lie–Størmer Center](https://lie-stormer.no).
 
 ## Supervision
 
