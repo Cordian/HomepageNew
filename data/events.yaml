@@ -4,6 +4,9 @@
   url: https://pit2027.puremath.no
   detail: "organizer, with N. Srivastava and B. Sturmfels — 10–14 May 2027"
   when: "2027"
+- name: "NCM school on Real Algebraic Geometry, IIT Bombay"
+  detail: "co-organizer — November 2026"
+  when: "2026"
 - name: "Midnight Sun Summit in Mathematics and Engineering, UiT Narvik"
   url: https://mssme.netlify.app/
   detail: "one of the main organizers"
@@ -20,6 +23,10 @@
   url: https://publications.mfo.de/handle/mfo/4303
   detail: "co-organizer, with Y. Okamoto, M. Schweighofer, and Y. Sekiguchi"
   when: "2025"
+- name: "ℕ³ Days — 20th meeting of the Nordic Number Theory Network, UiT Tromsø"
+  url: https://n3days.puremath.no/
+  detail: "co-organizer, with F. Pazuki and R. Ríos-Zertuche"
+  when: "2024"
 - name: "ISSAC — International Symposium on Symbolic and Algebraic Computation, Tromsø"
   url: https://www.issac-conference.org/2023/
   detail: "chair of the local organization"
@@ -62,9 +69,3 @@
   url: https://site.uit.no/alg-stat/
   detail: "co-organizer, with P. Moustrou and H. Verdure"
   when: "2018"
-# - name: "NCM school on Real Algebraic Geometry, IIT Bombay"
-#   detail: "co-organizer"
-#   when: "2026"
-# - name: "N³ Days (Nordic number theory network), UiT Tromsø"
-#   detail: "co-organizer, with F. Pazuki and R. Ríos Zertuche"
-#   when: ""
