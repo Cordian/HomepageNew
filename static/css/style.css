@@ -160,3 +160,18 @@ body.night {
 .gallery img { width: 100%; height: auto; display: block; border-radius: 2px; }
 @media (min-width: 56rem) { .gallery { columns: 3; } }
 @media (max-width: 34rem) { .gallery { columns: 1; } }
+
+/* Publication action chips + expandable abstracts */
+.pub-actions { margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: flex-start; }
+.pub-actions .chip, .pub-abstract summary {
+  font-size: 0.72rem; letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--accent); border: 1px solid var(--hairline);
+  padding: 0.08rem 0.55rem; text-decoration: none; line-height: 1.7; background: transparent;
+}
+.pub-actions .chip:hover, .pub-abstract summary:hover { border-color: var(--accent); }
+.pub-abstract { display: inline; }
+.pub-abstract summary { cursor: pointer; display: inline-block; list-style: none; }
+.pub-abstract summary::-webkit-details-marker { display: none; }
+.pub-abstract[open] { display: block; width: 100%; }
+.pub-abstract[open] summary { border-color: var(--accent); }
+.pub-abstract p { font-size: 0.95rem; color: var(--soft); margin: 0.55rem 0 0.15rem; }
