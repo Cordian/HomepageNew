@@ -1,5 +1,13 @@
 <li><span class="pub-title">{{ .title | safeHTML }}</span><br>
 {{- with .authors }}<span class="pub-authors">{{ . | safeHTML }}</span><br>{{ end -}}
 <span class="pub-venue">{{ .venue | safeHTML }}</span>
-{{- with .links }} <span class="pub-links">{{ range . }}<a href="{{ .url }}">{{ .label }}</a>{{ end }}</span>{{ end -}}
+{{- $arx := "" -}}
+{{- range .links }}{{ if in .url "arxiv.org/abs/" }}{{ $arx = .url }}{{ end }}{{ end -}}
+{{- if or .links .abstract }}
+<div class="pub-actions">
+{{- range .links }}<a class="chip" href="{{ .url }}">{{ .label }}</a>{{ end -}}
+{{- with $arx }}<a class="chip" href="{{ replace . "/abs/" "/pdf/" }}">pdf</a>{{ end -}}
+{{- with .abstract }}<details class="pub-abstract"><summary>abstract</summary><p>{{ . }}</p></details>{{ end -}}
+</div>
+{{- end }}
 </li>
