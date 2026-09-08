@@ -4,7 +4,7 @@ layout: "about"
 url: /about/
 description: "About Cordian Riener: biography, service and leadership, organized conferences and schools, positions and education."
 ---
-I am a professor of mathematics at [UiT The Arctic University of Norway](https://uit.no/startsida), where I lead the [Algebra group](https://uit.no/research/algebra) and serve as one of the directors of the [Lie–Størmer Centre](https://uit.no/research/lsc) for Fundamental Structures in Computational and Pure Mathematics, a national research centre run jointly with the University of Bergen. At UiT's Faculty of Science and Technology I act as Pro Dean for PhD education.
+I am a professor of mathematics at [UiT The Arctic University of Norway](https://uit.no/startsida), where I lead the [Applied and Computational Algebra group](https://uit.no/research/algebra) and serve as one of the directors of the [Lie–Størmer Centre](https://www.lie-stormer.no) for Fundamental Structures in Computational and Pure Mathematics, a national research centre run jointly with the University of Bergen. At UiT's Faculty of Science and Technology I act as Pro Dean for PhD education.
 
 A recurring theme in my work is that reflection groups and other symmetries do not merely organize a mathematical problem — used well, they collapse its complexity. Beyond research, I care about the place of mathematics in culture and society, and about mathematics education at every level, from upper secondary school through the doctorate.
 
