@@ -3,6 +3,10 @@
   url: https://lie-stormer.no
   detail: "co-director, with H. Munthe-Kaas — a national centre for pure and computational mathematics, funded by the Tromsø Research Foundation"
   when: "ongoing"
+- name: "SURE-AI — Sustainable, Risk-averse and Ethical AI"
+  url: https://www.sure-ai.no/
+  detail: "member — one of Norway's six national AI research centres, on the mathematical foundations of trustworthy AI, funded by the Research Council of Norway"
+  when: "since 2025"
 - name: "Mathesis — Norway's national PhD school in mathematics"
   url: https://lie-stormer.no/mathesis
   detail: "scientific coordinator — funded by the Research Council of Norway"
@@ -15,21 +19,21 @@
   url: https://uit.no/research/mascot
   detail: "a UiT Aurora Center — co-leader, with B. Kruglikov and H. Munthe-Kaas"
   when: "ongoing"
-- name: "SymRAG — Symmetry in Quantitative and Algorithmic Real Algebraic Geometry"
-  url: https://uit.no/project/symrag
-  detail: "principal investigator — funded by the Tromsø Research Foundation"
-  when: "since 2018"
 - name: "Mathematical Theory of Data Transmission and Data Encryption"
   detail: "Indo–Norwegian Cooperation Programme in Higher Education and Research (HK-dir)"
   when: "since 2024"
 - name: "LAUMA — Learning and Understanding Mathematics"
-  url: https://site.uit.no/lauma/
-  detail: "with G. Óturai and S. E. Martiny — how people learn, understand, and perceive mathematics"
+  url: https://uit.no/project/lauma
+  detail: "with G. Óturai and S. E. Martiny — how people learn, understand, and perceive mathematics; funded by the Tromsø Research Foundation"
   when: "ongoing"
 - name: "AlToGeLiS — Algebra, Topology, and Geometry in the Life Sciences"
   url: https://www.altogelis.uni-osnabrueck.de/about.html
   detail: "advisory board of the international consortium"
   when: "ongoing"
+- name: "SymRAG — Symmetry in Quantitative and Algorithmic Real Algebraic Geometry"
+  url: https://uit.no/project/symrag
+  detail: "principal investigator — funded by the Tromsø Research Foundation; completed, the project site is kept as a permanent record"
+  when: "2018–2024"
 - name: "POEMA — Polynomial Optimization, Efficiency through Moments and Algebra"
   url: http://poema-network.eu/
   detail: "Marie Skłodowska-Curie Innovative Training Network — UiT node"
