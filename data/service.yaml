@@ -1,12 +1,18 @@
 - role: 'Editor-in-Chief, <a href="https://www.sciencedirect.com/journal/journal-of-symbolic-computation"><em>Journal of Symbolic Computation</em></a>'
+  when: "2026–present"
+- role: 'Member, Scientific Advisory Board, <a href="https://www.heidelberg-laureate-forum.org">Heidelberg Laureate Forum</a>'
   when: "current"
+- role: 'Member, Internal Policy Group, <a href="https://euromathsoc.org">European Mathematical Society</a>'
+  when: "current"
+- role: 'Member, Discovery Grants Evaluation Group for Mathematics and Statistics, <a href="https://nserc-crsng.canada.ca/en/funding/review-committee/2026-discovery-research-mathematics-and-statistics">NSERC</a> (Canada)'
+  when: "2026–2028"
+- role: 'Scientific Coordinator, Mathesis national PhD school in mathematics'
+  when: "2025–present"
+- role: 'Co-Director, <a href="https://www.lie-stormer.no">Lie–Størmer Centre</a> (UiT &amp; University of Bergen)'
+  when: "2024–present"
 - role: 'Leader, <a href="https://www.matematikkradet.no">Norsk matematikkråd</a> (Norwegian Mathematics Council)'
-  when: "current"
+  when: "2023–present"
 - role: 'Member of the Board, <a href="https://abelprize.no/">Abel Prize</a>'
-  when: "current"
-- role: 'Co-Director, <a href="https://uit.no/research/lsc">Lie–Størmer Centre</a> (UiT &amp; University of Bergen)'
-  when: "current"
-- role: "Scientific Coordinator, Mathesis national PhD school in mathematics"
-  when: "current"
-- role: "Pro Dean for PhD education, Faculty of Science and Technology, UiT"
-  when: "current"
+  when: "2022–present"
+- role: 'Pro Dean for PhD education, Faculty of Science and Technology, UiT'
+  when: "2021–present"
