@@ -22,6 +22,10 @@
 - name: "Mathematical Theory of Data Transmission and Data Encryption"
   detail: "Indo–Norwegian Cooperation Programme in Higher Education and Research (HK-dir)"
   when: "since 2024"
+- name: "LAUMA — Learning and Understanding Mathematics"
+  url: https://site.uit.no/lauma/
+  detail: "with G. Óturai and S. E. Martiny — how people learn, understand, and perceive mathematics"
+  when: "ongoing"
 - name: "AlToGeLiS — Algebra, Topology, and Geometry in the Life Sciences"
   url: https://www.altogelis.uni-osnabrueck.de/about.html
   detail: "advisory board of the international consortium"
