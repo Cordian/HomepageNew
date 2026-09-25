@@ -62,7 +62,9 @@ main section { padding: 2.9rem 0; border-top: 1px solid var(--hairline); }
 /* ---------- Hero ---------- */
 .hero-outer { position: relative; overflow: hidden; border-bottom: 1px solid var(--hairline); }
 .hero-fig {
-  position: absolute; top: 50%; right: -7rem; transform: translateY(-50%);
+  position: absolute; top: 50%; transform: translateY(-50%);
+  /* anchored to the text column: fully visible on wide screens, bleeding off the edge on narrow ones */
+  right: max(-7rem, calc(50% - 35rem));
   width: 30rem; max-width: 70vw;
   color: var(--accent); opacity: var(--fig-opacity);
   pointer-events: none; z-index: 0;
@@ -76,7 +78,7 @@ main section { padding: 2.9rem 0; border-top: 1px solid var(--hairline); }
 .hero .upcoming .meta { display: block; }
 @media (max-width: 44rem) {
   .hero { padding: 3rem 0 2.6rem; }
-  .hero-fig { width: 17rem; right: -6rem; top: 6rem; transform: none; }
+  .hero-fig { width: 17rem; right: -6rem; top: 6rem; transform: none; opacity: calc(var(--fig-opacity) * 0.6); }
   .hero .lede, .hero .upcoming { max-width: 100%; }
 }
 
@@ -89,7 +91,9 @@ main section { padding: 2.9rem 0; border-top: 1px solid var(--hairline); }
 
 /* ---------- About ---------- */
 .about { display: grid; grid-template-columns: 1fr 12rem; gap: 2.2rem; align-items: start; }
+.about figure { margin: 0; }
 .about img { width: 100%; height: auto; border-radius: 2px; display: block; }
+.about .actions { margin-top: 1.4rem; }
 @media (max-width: 44rem) { .about { grid-template-columns: 1fr; } .about figure { max-width: 13rem; margin: 0; } }
 
 /* ---------- Definition lists ---------- */
@@ -97,10 +101,12 @@ dl.roles { margin: 0; }
 dl.roles > div { padding: 0.65rem 0; border-top: 1px solid var(--hairline); display: grid; grid-template-columns: 1fr; gap: 0.1rem; }
 dl.roles > div:first-child { border-top: none; }
 dl.roles dt { font-weight: 500; }
-dl.roles dd { margin: 0; color: var(--soft); }
+dl.roles dd { margin: 0; color: var(--soft); font-style: italic; font-variant-numeric: oldstyle-nums; }
+/* On wider screens the date sits in a narrow left column, as on the publications page */
 @media (min-width: 44rem) {
-  dl.roles > div { grid-template-columns: 1fr 13rem; gap: 1rem; }
-  dl.roles dd { text-align: right; font-style: italic; }
+  dl.roles > div { grid-template-columns: 7rem 1fr; column-gap: 1.6rem; }
+  dl.roles dt { grid-column: 2; grid-row: 1; }
+  dl.roles dd { grid-column: 1; grid-row: 1; text-align: right; padding-top: 0.05rem; }
 }
 
 /* ---------- Publications ---------- */
@@ -112,6 +118,9 @@ ol.pubs li:first-child { border-top: none; }
 .pub-venue { font-style: italic; }
 .pub-links { font-size: 0.92rem; }
 .pub-links a { margin-right: 0.9rem; }
+
+ol.pubs.compact li { padding: 0.55rem 0; }
+.brand.ghost { visibility: hidden; }
 
 .yearblock { display: grid; grid-template-columns: 1fr; margin-top: 1.6rem; }
 .yearblock h3 { color: var(--soft); font-weight: 400; font-size: 1.3rem; margin-bottom: 0.3rem; font-variant-numeric: oldstyle-nums; }
@@ -135,7 +144,9 @@ address { font-style: normal; }
 main section.first { border-top: none; }
 .pagetitle { font-size: 1.9rem; }
 #selected .more { margin-top: 1.4rem; }
-.page .content ul { list-style: none; margin: 0; padding: 0; }
+.page .content h2 { font-size: 1.25rem; margin: 2.4rem 0 0.8rem; }
+.page .content h2:first-child { margin-top: 0; }
+.page .content ul { list-style: none; margin: 0 0 0.6rem; padding: 0; }
 .page .content li { padding: 0.65rem 0; border-top: 1px solid var(--hairline); font-weight: 500; }
 .page .content li:first-child { border-top: none; }
 .page .content ul + p { margin-top: 1.2rem; }
