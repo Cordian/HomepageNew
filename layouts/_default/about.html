@@ -3,7 +3,17 @@
 <div class="wrap">
 <section class="first">
   <h2 class="pagetitle">{{ .Title }}</h2>
-  <div class="prose">{{ .Content }}</div>
+  <div class="about">
+    <div class="prose">
+      {{ .Content }}
+      {{ with .Params.cv }}
+      <p class="pub-actions actions"><a class="chip" href="{{ .url }}">{{ .label }}</a>{{ range site.Params.profiles }}<a class="chip" href="{{ .url }}">{{ .name }}</a>{{ end }}</p>
+      {{ end }}
+    </div>
+    <figure>
+      <img src="/images/portrait.jpg" alt="Portrait of Cordian Riener" width="900" height="765">
+    </figure>
+  </div>
 </section>
 
 <section id="service">
