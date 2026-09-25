@@ -8,6 +8,6 @@ I am a professor of mathematics at [UiT The Arctic University of Norway](https:/
 
 A recurring theme in my work is that reflection groups and other symmetries do not merely organize a mathematical problem — used well, they collapse its complexity. Beyond research, I care about the place of mathematics in culture and society, and about mathematics education at every level, from upper secondary school through the doctorate.
 
-Before Tromsø I held positions in Konstanz, at Aalto University in Helsinki, and in Frankfurt, where I completed both a doctorate in mathematics and a Magister in philosophy. I received my Habilitation from the University of Konstanz in 2018.
+Before Tromsø I held positions in Konstanz, at Aalto University in Helsinki, and in Frankfurt, where I completed both a doctorate in mathematics and a Magister in philosophy. I received my Habilitation from the University of Konstanz in 2018. Since 2026 I am an elected member of the Royal Norwegian Society of Sciences and Letters (DKNVS).
 
-[Curriculum vitae (PDF)](/uploads/cv.pdf)
+[Curriculum vitae (PDF, updated September 2026)](/uploads/cv.pdf)
