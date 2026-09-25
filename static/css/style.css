@@ -167,8 +167,10 @@ body.night {
 .wrap.wide { max-width: 62rem; }
 .prose { max-width: 46rem; }
 .gallery { columns: 2; column-gap: 1rem; margin-top: 1.8rem; }
-.gallery a { display: block; margin-bottom: 1rem; }
+.gallery figure { margin: 0 0 1rem; break-inside: avoid; }
+.gallery a { display: block; }
 .gallery img { width: 100%; height: auto; display: block; border-radius: 2px; }
+.gallery figcaption { font-size: 0.8rem; color: var(--soft); margin-top: 0.3rem; font-variant-numeric: oldstyle-nums; }
 @media (min-width: 56rem) { .gallery { columns: 3; } }
 @media (max-width: 34rem) { .gallery { columns: 1; } }
 
