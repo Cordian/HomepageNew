@@ -1,6 +1,6 @@
 <header class="site">
   <div class="wrap">
-    <a class="brand" href="/">{{ site.Title }}</a>
+    {{ if .IsHome }}<span class="brand ghost" aria-hidden="true">{{ site.Title }}</span>{{ else }}<a class="brand" href="/">{{ site.Title }}</a>{{ end }}
     <nav class="main">
 {{- range site.Menus.main }}
       <a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
