@@ -7,12 +7,16 @@
   {{ $imgs := .Resources.ByType "image" }}
   {{ if $imgs }}
   <div class="gallery">
-    {{ range $imgs }}
+    {{ range sort $imgs "Name" "desc" }}
     {{ $thumb := .Resize "900x q85" }}
     {{ $full := .Resize "2200x q90" }}
-    <a href="{{ $full.RelPermalink }}">
-      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" alt="Aurora borealis over Tromsø">
-    </a>
+    {{ $cap := "" }}{{ if ne .Title .Name }}{{ $cap = .Title }}{{ end }}
+    <figure>
+      <a href="{{ $full.RelPermalink }}">
+        <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" alt="{{ with $cap }}Aurora borealis, {{ . }}{{ else }}Aurora borealis over Tromsø{{ end }}">
+      </a>
+      {{ with $cap }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
     {{ end }}
   </div>
   {{ else }}
