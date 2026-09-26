@@ -4,6 +4,10 @@
 <section class="first">
   <h2 class="pagetitle">{{ .Title }}</h2>
   <div class="prose">{{ .Content }}</div>
+  <figure class="map">
+    {{ readFile "static/images/events-map.svg" | safeHTML }}
+    <figcaption>Where I have organized conferences, workshops and schools. Hover a dot for the events; Tromsø is home.</figcaption>
+  </figure>
   <dl class="roles" style="margin-top:1.6rem">
   {{ range site.Data.events }}
     <div><dt>{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}{{ with .detail }} &mdash; <span class="detail">{{ . | safeHTML }}</span>{{ end }}</dt><dd>{{ .when }}</dd></div>

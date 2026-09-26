@@ -4,6 +4,24 @@
 <section class="first">
   <h2 class="pagetitle">Publications</h2>
   <p class="meta">Journal articles, refereed conference papers, books, and selected preprints. Continuously updated lists live on <a href="https://arxiv.org/search/?searchtype=author&amp;query=Riener%2C+Cordian">arXiv</a>, <a href="https://scholar.google.com/citations?user=PxhL52MAAAAJ">Google Scholar</a>, and <a href="https://dblp.org/pid/52/9367.html">dblp</a>.</p>
+  {{/* papers per year, as a small bar chart */}}
+  {{ $counts := dict }}{{ $ymin := 3000 }}{{ $ymax := 0 }}{{ $cmax := 1 }}
+  {{ range site.Data.publications }}{{ $y := int .year }}{{ $n := len .entries }}
+    {{ $counts = merge $counts (dict (printf "%d" $y) $n) }}
+    {{ if lt $y $ymin }}{{ $ymin = $y }}{{ end }}{{ if gt $y $ymax }}{{ $ymax = $y }}{{ end }}{{ if gt $n $cmax }}{{ $cmax = $n }}{{ end }}
+  {{ end }}
+  {{ $years := seq $ymin $ymax }}{{ $w := mul (len $years) 14 }}
+  <figure class="pubchart">
+    <svg viewBox="0 0 {{ $w }} 64" width="100%" role="img" aria-label="Number of publications per year, {{ $ymin }} to {{ $ymax }}">
+      <line x1="0" y1="50.5" x2="{{ $w }}" y2="50.5" stroke="currentColor" stroke-opacity=".35"/>
+      {{ range $i, $y := $years }}{{ $n := index $counts (printf "%d" $y) | default 0 }}
+      {{ $hgt := div (mul (float $n) 42) (float $cmax) }}
+      <rect x="{{ add (mul $i 14) 2 }}" y="{{ sub 50 $hgt }}" width="10" height="{{ $hgt }}" fill="currentColor" fill-opacity=".55"><title>{{ $y }}: {{ $n }}</title></rect>
+      {{ if eq (mod $y 5) 0 }}<text x="{{ add (mul $i 14) 7 }}" y="62" text-anchor="middle" font-size="9" fill="currentColor" fill-opacity=".7">{{ $y }}</text>{{ end }}
+      {{ end }}
+    </svg>
+    <figcaption>Publications per year</figcaption>
+  </figure>
   {{ range site.Data.publications }}
   <div class="yearblock">
     <h3>{{ .year }}</h3>
