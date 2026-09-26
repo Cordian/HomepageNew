@@ -22,13 +22,21 @@
 <section id="research" class="first">
   <h2>Research</h2>
   <div class="themes">
-  {{ range site.Data.research }}
+  {{ range $i, $t := site.Data.research }}
     <div>
-      <h3>{{ .title | safeHTML }}</h3>
-      <p>{{ .text | safeHTML }}</p>
+      <span class="glyph">{{ partial "theme-glyph.html" $i }}</span>
+      <h3>{{ $t.title | safeHTML }}</h3>
+      <p>{{ $t.text | safeHTML }}</p>
     </div>
   {{ end }}
   </div>
+</section>
+
+<section id="north" class="band-outer">
+  <a class="band" href="/aurora/">
+    <img src="/images/aurora-band.jpg" alt="Northern lights over Tromsø" width="2400" height="750" loading="lazy">
+    <span class="band-caption"><span>Northern lights over Tromsø, 20 January 2026</span>See the gallery &rarr;</span>
+  </a>
 </section>
 
 <section id="intro">
@@ -58,4 +66,5 @@
 
 </div>
 </main>
+{{ partial "orbit-js.html" . }}
 {{ end }}
