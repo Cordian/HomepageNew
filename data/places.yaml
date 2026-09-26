@@ -1,0 +1,47 @@
+# Places where I have (co-)organized conferences, workshops and schools.
+# Used for the map on the Events page (regenerate with tools/make_map.py).
+- name: Tromsø
+  lat: 69.65
+  lon: 18.96
+  home: true
+  note: "ISSAC 2023, Arctic Applied Algebra, N³ Days, Mørketidens mattemøte, PIT 2027"
+- name: Narvik
+  lat: 68.44
+  lon: 17.43
+  note: "Midnight Sun Summit 2026"
+- name: Nordfjordeid
+  lat: 61.91
+  lon: 5.99
+  note: "Summer school 2022"
+- name: Bergen
+  lat: 60.39
+  lon: 5.32
+  note: "CATMI 2023"
+- name: Helsinki
+  lat: 60.19
+  lon: 24.83
+  note: "Applications of Real Algebraic Geometry, Aalto 2014"
+- name: Konstanz
+  lat: 47.66
+  lon: 9.18
+  note: "Mathematics, Algorithms and Proof, 2012"
+- name: Oberwolfach
+  lat: 48.33
+  lon: 8.22
+  note: "MFO–RIMS tandem workshops 2021, 2025"
+- name: Marseille
+  lat: 43.23
+  lon: 5.44
+  note: "CIRM Luminy 2023"
+- name: Barcelona
+  lat: 41.39
+  lon: 2.17
+  note: "IFORS 2014"
+- name: Providence
+  lat: 41.82
+  lon: -71.41
+  note: "ICERM 2020"
+- name: Mumbai
+  lat: 19.08
+  lon: 72.88
+  note: "NCM school, IIT Bombay 2026"
