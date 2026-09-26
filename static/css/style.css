@@ -105,6 +105,9 @@ main section.band-outer { padding: 0; border-top: none; }
 .map { margin: 1.6rem 0 0; }
 .map svg { width: 100%; height: auto; display: block; }
 .map figcaption { font-size: 0.85rem; color: var(--soft); font-style: italic; margin-top: 0.5rem; }
+.map svg .lbl { font-size: 15px; }          /* the SVG is inline, so page CSS can enlarge the labels */
+.map svg .dot { r: 4.6; }
+.map svg .home { r: 9.5; }
 .themes p { margin: 0; font-size: 0.99rem; color: var(--soft); }
 @media (max-width: 44rem) { .themes { grid-template-columns: 1fr; } }
 
