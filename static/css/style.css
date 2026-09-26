@@ -102,6 +102,11 @@ main section.band-outer { padding: 0; border-top: none; }
 .pubchart { margin: 0.8rem 0 0.4rem; color: var(--accent); }
 .pubchart svg { display: block; max-height: 6rem; }
 .pubchart figcaption { font-size: 0.8rem; color: var(--soft); font-style: italic; }
+.photo { margin: 1.4rem 0 0; }
+.photo img { width: 100%; height: auto; display: block; border-radius: 2px; }
+.photo figcaption { font-size: 0.85rem; color: var(--soft); font-style: italic; margin-top: 0.5rem; }
+.eventphoto { margin: 0.6rem 0 0.2rem; max-width: 22rem; }
+.eventphoto img { width: 100%; height: auto; display: block; border-radius: 2px; }
 .map { margin: 1.6rem 0 0; }
 .map svg { width: 100%; height: auto; display: block; }
 .map figcaption { font-size: 0.85rem; color: var(--soft); font-style: italic; margin-top: 0.5rem; }
