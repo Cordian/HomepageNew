@@ -84,8 +84,27 @@ main section { padding: 2.9rem 0; border-top: 1px solid var(--hairline); }
 
 /* ---------- Research themes ---------- */
 .themes { display: grid; grid-template-columns: 1fr 1fr; gap: 1.7rem 2.4rem; }
-.themes > div { border-top: 1px solid var(--hairline); padding-top: 0.8rem; }
+.themes > div { border-top: 1px solid var(--hairline); padding-top: 0.9rem; }
+.themes .glyph { display: block; width: 2.9rem; height: 2.9rem; color: var(--accent); margin-bottom: 0.55rem; }
+.themes .glyph svg { width: 100%; height: 100%; display: block; }
 .themes h3 { margin-bottom: 0.35rem; }
+
+/* ---------- Aurora band (front page) ---------- */
+main section.band-outer { padding: 0; border-top: none; }
+.band { display: block; position: relative; width: 100vw; margin-left: calc(50% - 50vw); height: clamp(11rem, 24vw, 17rem); overflow: hidden; background: #0d1622; }
+.band img { width: 100%; height: 100%; object-fit: cover; object-position: center 55%; display: block; opacity: .92; transition: opacity .4s ease; }
+.band:hover img { opacity: 1; }
+.band:hover { text-decoration: none; }
+.band-caption { position: absolute; right: max(1.25rem, calc(50% - 23rem + 1.25rem)); bottom: 1rem; color: #fff; font-size: 0.92rem; text-align: right; text-shadow: 0 1px 8px rgba(0,0,0,.7); line-height: 1.35; }
+.band-caption > span { display: block; font-style: italic; color: #dfe6ee; font-size: 0.88rem; }
+
+/* ---------- Charts and map ---------- */
+.pubchart { margin: 0.8rem 0 0.4rem; color: var(--accent); }
+.pubchart svg { display: block; max-height: 6rem; }
+.pubchart figcaption { font-size: 0.8rem; color: var(--soft); font-style: italic; }
+.map { margin: 1.6rem 0 0; }
+.map svg { width: 100%; height: auto; display: block; }
+.map figcaption { font-size: 0.85rem; color: var(--soft); font-style: italic; margin-top: 0.5rem; }
 .themes p { margin: 0; font-size: 0.99rem; color: var(--soft); }
 @media (max-width: 44rem) { .themes { grid-template-columns: 1fr; } }
 
