@@ -1,0 +1,33 @@
+<script>
+(function(){
+  var fig=document.querySelector('.hero-fig svg'); if(!fig||!window.requestAnimationFrame) return;
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var phi=(1+Math.sqrt(5))/2, V=[], NS='http://www.w3.org/2000/svg', S=52.57;
+  function cyc(a,b,c){V.push([a,b,c],[b,c,a],[c,a,b]);}
+  cyc(0,0,phi); cyc(0,0,-phi);
+  [1,-1].forEach(function(a){[1,-1].forEach(function(b){[1,-1].forEach(function(c){cyc(a/2,b*phi/2,c*phi*phi/2);});});});
+  var E=[]; for(var i=0;i<V.length;i++)for(var j=i+1;j<V.length;j++){var d=0;for(var k=0;k<3;k++)d+=Math.pow(V[i][k]-V[j][k],2);if(Math.abs(d-1)<1e-6)E.push([i,j]);}
+  while(fig.firstChild)fig.removeChild(fig.firstChild);
+  var g=document.createElementNS(NS,'g'); g.setAttribute('stroke','currentColor'); g.setAttribute('stroke-width','0.8'); g.setAttribute('fill','none');
+  var lines=E.map(function(){var l=document.createElementNS(NS,'line'); g.appendChild(l); return l;});
+  var g2=document.createElementNS(NS,'g'); g2.setAttribute('fill','currentColor');
+  var dots=V.map(function(){var c=document.createElementNS(NS,'circle'); c.setAttribute('r','1.6'); g2.appendChild(c); return c;});
+  fig.appendChild(g); fig.appendChild(g2);
+  var angle=0.4, last=null, running=false;
+  function frame(t){
+    if(!running) return;
+    if(last!==null) angle+=(t-last)/1000*0.10; last=t;
+    var tilt=0.55+0.08*Math.sin(angle*0.7), ca=Math.cos(angle), sa=Math.sin(angle), cb=Math.cos(tilt), sb=Math.sin(tilt);
+    var P=V.map(function(v){var x=v[0]*ca-v[2]*sa, z=v[0]*sa+v[2]*ca, y=v[1]; return [x*S, -(y*cb-z*sb)*S, (y*sb+z*cb)/phi];});
+    lines.forEach(function(l,i){var p=P[E[i][0]],q=P[E[i][1]]; l.setAttribute('x1',p[0].toFixed(2)); l.setAttribute('y1',p[1].toFixed(2)); l.setAttribute('x2',q[0].toFixed(2)); l.setAttribute('y2',q[1].toFixed(2)); l.setAttribute('opacity',(0.22+0.4*((p[2]+q[2])/2+1)/2).toFixed(2));});
+    dots.forEach(function(c,i){var p=P[i]; c.setAttribute('cx',p[0].toFixed(2)); c.setAttribute('cy',p[1].toFixed(2)); c.setAttribute('opacity',(0.3+0.5*(p[2]+1)/2).toFixed(2));});
+    requestAnimationFrame(frame);
+  }
+  function start(){ if(!running){running=true; last=null; requestAnimationFrame(frame);} }
+  function stop(){ running=false; }
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(function(en){ en[0].isIntersecting?start():stop(); }).observe(fig);
+  } else start();
+  document.addEventListener('visibilitychange',function(){ document.hidden?stop():start(); });
+})();
+</script>
